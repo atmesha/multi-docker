@@ -7,4 +7,4 @@
 
 import {
 toBeInTheDocument
-} from '@testing-library/jest-dom
+} from '@testing-library/jest-dom'
