@@ -5,8 +5,8 @@ services:
 before install:
   - docker build -t atmesh/docker-test -f ./client/Dockerfile.dev ./client
 
-#script:
-#  - docker run -e CI=true atmesh/docker-test npm test -- --coverage
+script:
+  - docker run -e CI=true atmesh/docker-test npm test -- --coverage
 
 
 after_success:
